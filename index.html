@@ -16,15 +16,16 @@
             <div class="box1-top">    
                 <input id="name" type="text" placeholder="Nome">
                 <input id="km" type="number" placeholder="Km da percorrere">
-                <select name="facia eta" id="fasciaEta">
-                    <option value="opt1">Minorenne</option>
-                    <option value="opt.2">Maggiorenne</option>
-                    <option value="opt.3">Over 65</option>
+                <select id="fasciaEta">
+                    <option value="Seleziona la tua età!"></option>
+                    <option value="Minorenne">Minorenne</option>
+                    <option value="Maggiorenne">Maggiorenne</option>
+                    <option value="Over65">Over65</option>
                 </select>
             </div>
             <div class="box1-bottom">   
-                <button>Genera</button>
-                <button>Annulla</button>
+                <button id="submit">Genera</button>
+                <button id="annulla">Annulla</button>
             </div>
         </div>
         <h2>Il tuo biglietto</h2>
@@ -38,24 +39,24 @@
                 
                 <div class="ticket-info">
                     <h4>Nome Passeggero</h4>
-                    <div></div>
+                    <div id="userName"></div>
 
                 </div>
                 <div class="ticket-info">
-                    <h4>offerta</h4>
-                    <div></div>
+                    <h4>Offerta</h4>
+                    <div id="offerta"></div>
                 </div>
                 <div class="ticket-info">
                     <h4>Carrozza</h4>
-                    <div></div>
+                    <div id="carrozza"></div>
                 </div>
                 <div class="ticket-info">
                     <h4>Codice CP</h4>
-                    <div></div>
+                    <div id="codice"></div>
                 </div>
                 <div class="ticket-info">
                     <h4>Costo Biglietto</h4>
-                    <div></div>
+                    <div id="costoTot"></div>
                 </div>
 
             </div>
